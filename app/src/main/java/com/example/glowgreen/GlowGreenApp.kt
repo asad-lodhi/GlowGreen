@@ -1,6 +1,5 @@
 package com.example.glowgreen
 
-import androidx.compose.animation.core.tween
 import androidx.compose.animation.slideInHorizontally
 import androidx.compose.animation.slideOutHorizontally
 import androidx.compose.runtime.Composable
@@ -11,7 +10,6 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.example.glowgreen.splashscreen.SplashScreen
 import kotlinx.coroutines.delay
 
 enum class GlowGreen() {
@@ -73,7 +71,7 @@ fun GlowGreenApp() {
             exitTransition = { slideOutHorizontally() },
             popEnterTransition = { slideInHorizontally() },
             popExitTransition = { slideOutHorizontally(targetOffsetX = { it }) }
-            ) {
+        ) {
             ConnectScreen(
                 onButtonClick = {
                     navController.navigate(GlowGreen.Signup.name)
@@ -85,7 +83,7 @@ fun GlowGreenApp() {
             enterTransition = { slideInHorizontally(initialOffsetX = { it }) },
             exitTransition = { slideOutHorizontally() },
             popEnterTransition = { slideInHorizontally() },
-            popExitTransition = { slideOutHorizontally(targetOffsetX = { it })}
+            popExitTransition = { slideOutHorizontally(targetOffsetX = { it }) }
         ) {
             SignUpScreen()
         }
