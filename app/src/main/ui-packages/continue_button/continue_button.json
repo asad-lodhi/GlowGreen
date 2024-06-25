@@ -1,0 +1,112 @@
+{
+  "name": "continue_button",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "66kragZ7gTk4EPoqm72hyC",
+    "node": "254:96",
+    "version": "5970441158",
+    "component-id": "1fe922135653ddc935046a7915b2fc35b25b05c6"
+  },
+  "default": "continueButton",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 25"
+      },
+      {
+        "type": "text",
+        "id": "Continue"
+      }
+    ],
+    "modes": {
+      "continueButton": {
+        "rules": [
+          {
+            "id": "top_level",
+            "tap-handler": "$onContinueButtonPressed",
+            "is-structured": false,
+            "children": [
+              "Rectangle 25",
+              "Continue"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 25",
+            "border-radius": 20.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "rectangle_25.svg"
+          },
+          {
+            "id": "Continue",
+            "margin": {
+              "left": 40.0,
+              "top": 12.0,
+              "right": 40.0,
+              "bottom": 12.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Continue",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 24.0,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "onContinueButtonPressed": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "continueButton",
+      "size": {
+        "width": 193.0,
+        "height": 60.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

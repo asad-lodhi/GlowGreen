@@ -1,0 +1,144 @@
+{
+  "name": "connect_",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "66kragZ7gTk4EPoqm72hyC",
+    "node": "244:134",
+    "version": "5970441158",
+    "component-id": "98506d9fad6835adcbd4bb6fccb6c789c2c15513"
+  },
+  "default": "connect ",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "connectText"
+      },
+      {
+        "type": "text",
+        "id": "joinText"
+      }
+    ],
+    "modes": {
+      "connect ": {
+        "rules": [
+          {
+            "id": "top_level",
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 4.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "is-structured": false,
+            "children": [
+              "connectText",
+              "joinText"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 71.99999999999993,
+              "saturation": 0.02155172413793108,
+              "value": 0.9098039215686274
+            }
+          },
+          {
+            "id": "connectText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 423.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 342.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 71.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 129.0,
+              "saturation": 0.5714285714285714,
+              "value": 0.4117647058823529
+            },
+            "text-content": "Connect With Other Plant Lovers",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 30.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          },
+          {
+            "id": "joinText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 45.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 535.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 294.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 129.0,
+              "saturation": 0.5714285714285714,
+              "value": 0.4117647058823529
+            },
+            "text-content": "Join A Community",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 24.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "connect ",
+      "size": {
+        "width": 390.0,
+        "height": 844.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

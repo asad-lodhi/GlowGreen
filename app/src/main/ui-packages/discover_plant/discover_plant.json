@@ -1,0 +1,131 @@
+{
+  "name": "discover_plant",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "66kragZ7gTk4EPoqm72hyC",
+    "node": "237:130",
+    "version": "5970441158",
+    "component-id": "014b6b29d600ee55d0ca8ba2045f9916c5157dba"
+  },
+  "default": "Discover plant",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "subtext"
+      },
+      {
+        "type": "text",
+        "id": "main text"
+      }
+    ],
+    "modes": {
+      "Discover plant": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "subtext",
+              "main text"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 71.99999999999993,
+              "saturation": 0.02155172413793108,
+              "value": 0.9098039215686274
+            }
+          },
+          {
+            "id": "subtext",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 61.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 487.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 294.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": 1.0,
+              "hue": 129.0,
+              "saturation": 0.5714285714285714,
+              "value": 0.4117647058823529
+            },
+            "text-content": "Tips N Tricks to grow a healthy plant",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 24.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          },
+          {
+            "id": "main text",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 47.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 378.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 294.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 77.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 129.0,
+              "saturation": 0.5714285714285714,
+              "value": 0.4117647058823529
+            },
+            "text-content": "Discover Your Type Of Plant",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-size": 30.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Discover plant",
+      "size": {
+        "width": 390.0,
+        "height": 844.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,142 @@
+{
+  "name": "welcome_page",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "66kragZ7gTk4EPoqm72hyC",
+    "node": "228:168",
+    "version": "5970441158",
+    "component-id": "b80e68eae10b604a5c7b775e987b28efb89f29a2"
+  },
+  "default": "welcome page",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Group 3"
+      },
+      {
+        "type": "text",
+        "id": "welcome back text"
+      },
+      {
+        "type": "text",
+        "id": "we are glad text"
+      }
+    ],
+    "modes": {
+      "welcome page": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": 30.0,
+            "is-structured": false,
+            "children": [
+              "Group 3"
+            ]
+          },
+          {
+            "id": "Group 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 47.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 106.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 278.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 255.4516143798828
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "welcome back text",
+              "we are glad text"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "welcome back text",
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 143.33333333333334,
+              "saturation": 0.5934065934065934,
+              "value": 0.3568627450980392
+            },
+            "text-content": "Welcome Back!",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 35.0,
+            "line-height": 1.1428571319580079,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "we are glad text",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 66.6773681640625
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 201.64515686035156
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 188.77420043945312
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 143.33333333333334,
+              "saturation": 0.5934065934065934,
+              "value": 0.3568627450980392
+            },
+            "text-content": "we’re glad that that you are here..!!",
+            "italic": true,
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 20.593547821044922,
+            "line-height": 1.2102272401002134,
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "welcome page",
+      "size": {
+        "width": 390.0,
+        "height": 844.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

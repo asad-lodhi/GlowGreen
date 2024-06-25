@@ -1,0 +1,65 @@
+{
+  "name": "welcome_page_filter",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "66kragZ7gTk4EPoqm72hyC",
+    "node": "229:91",
+    "version": "5970441158",
+    "component-id": "a8c3272889831ce483a9060685ac44e90cee3899"
+  },
+  "default": "welcome page filter",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "filter"
+      }
+    ],
+    "modes": {
+      "welcome page filter": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "filter"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "filter",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "filter.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "welcome page filter",
+      "size": {
+        "width": 390.0,
+        "height": 844.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

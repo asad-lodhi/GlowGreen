@@ -1,0 +1,117 @@
+{
+  "name": "discover_plant_bottom_bar",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "66kragZ7gTk4EPoqm72hyC",
+    "node": "241:94",
+    "version": "5970441158",
+    "component-id": "f97aedcbcd9536226f08b64420849c32699996ab"
+  },
+  "default": "discover plant bottom bar",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 27"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 26"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 28"
+      }
+    ],
+    "modes": {
+      "discover plant bottom bar": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Rectangle 27",
+              "Rectangle 26",
+              "Rectangle 28"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "Rectangle 27",
+            "border-radius": 20.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 35.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 12.0
+              }
+            },
+            "vector-content": "rectangle_27.svg"
+          },
+          {
+            "id": "Rectangle 26",
+            "border-radius": 20.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 60.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 12.0
+              }
+            },
+            "vector-content": "rectangle_26.svg"
+          },
+          {
+            "id": "Rectangle 28",
+            "border-radius": 20.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 35.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 12.0
+              }
+            },
+            "vector-content": "rectangle_28.svg"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "discover plant bottom bar",
+      "size": {
+        "width": 150.0,
+        "height": 12.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
